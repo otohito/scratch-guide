@@ -1,2 +1,2 @@
 # scratch-guide
-scratchのガイド
+scratchでシューティングゲームをつくるためのガイド
