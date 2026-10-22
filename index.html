@@ -40,54 +40,449 @@ button{background:var(--purple);border:1px solid transparent;border-radius:15px;
 <svg class="space-decoration" viewBox="0 0 260 240" aria-hidden="true"><circle cx="135" cy="115" r="91" fill="#e9e1fc"/><circle cx="135" cy="115" r="72" fill="none" stroke="#d4c6f2" stroke-dasharray="4 8"/><g transform="translate(115 115) rotate(30)"><path d="M-21 25 Q-44 38 -37 58 L-8 44 M21 25 Q44 38 37 58 L8 44" fill="#7c67bf"/><path d="M-12 50 Q0 91 12 50" fill="#f5b65b"/><path d="M0-64 Q-36-25-24 40 Q0 53 24 40 Q36-25 0-64" fill="white" stroke="#6650a4" stroke-width="3"/><path d="M0-64 Q-15-48-21-27 H21 Q15-48 0-64" fill="#8b78cc"/><circle cy="-5" r="14" fill="#d5f0ec" stroke="#6650a4" stroke-width="3"/></g><g fill="#d29d43"><path d="M45 33l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/><path d="M214 145l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/><circle cx="204" cy="44" r="4"/><circle cx="45" cy="184" r="4"/></g></svg>
 <section id="intro" class="intro"><p class="eyebrow">今日のゴール</p><h1>スペースキーで<br>ビームを発射しよう。</h1><p>図を見る → Scratchでやってみる →「できた」で次へ。<br>ゆっくり、自分のペースで進めよう。</p><div class="links"><a href="https://scratch.mit.edu/projects/editor/" target="_blank" rel="noopener noreferrer">Scratchを別タブで開く ↗</a><a href="data:application/octet-stream;base64,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" download="シューティングスターター.sb3">初めての人：スターターを保存</a></div><p class="notice">前の授業の作品がある人は、その作品を使えます。スターターを読み込むと今の作品が置き換わるので、先に保存しましょう。</p><section class="starter-setup" aria-labelledby="setupTitle"><p class="eyebrow">はじめに ／ まだ作品を読み込んでいない人へ</p><h2 id="setupTitle">① スターターを読み込もう</h2><ol><li><a href="data:application/octet-stream;base64,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" download="シューティングスターター.sb3">スターターを保存する ↓</a> を押します。</li><li>Scratchを別タブで開きます。今の作品を残したい場合は、先に「ファイル」→「コンピューターに保存する」で保存します。</li><li>Scratch上部の <strong>「ファイル」→「コンピューターから読み込む」</strong> を押します。</li><li>保存した <strong>「シューティングスターター.sb3」</strong> を選びます。ダウンロードフォルダも確認しましょう。</li><li>右下に「プレイヤー」「ビーム」「おじゃまUFO」が並んだら準備OK。<strong>下の「ガイドをはじめる」</strong>で進みます。</li></ol><p class="setup-note"><strong>すでに前の授業の作品を開いている人は、そのまま続けます。</strong><br>スターターは最初の状態の作品です。ページを進めても配布ファイルは変わりません。途中で読み込み直すと、追加したプログラムが置き換わります。</p><p class="small">このガイドは漢字表示のScratch用です。左上の地球マークから「日本語」を選べます。</p></section><button id="start">準備できた！ ガイドをはじめる →</button></section>
 <section id="lesson" hidden>
-<div class="progress"><span id="count"></span><span id="saved" role="status"></span></div><progress id="bar" max="23" value="0"></progress>
+<div class="progress"><span id="count"></span><span id="saved" role="status"></span></div><progress id="bar" max="41" value="0"></progress>
 <div class="lesson-head"><p id="phase" class="eyebrow"></p><h1 id="title" tabindex="-1"></h1><p id="instruction"></p></div>
 <div id="visual" class="visual"></div><p class="caption">操作する場所を示す説明図です。実際のScratchでは、画面の広さによって位置や見え方が少し変わります。</p>
 <div class="check"><strong>ここまでできた？</strong><p id="check"></p></div>
 <details id="help"><summary>うまくいかないとき</summary><p id="hint"></p></details>
 <nav class="navigation"><button id="back" class="secondary">← ひとつ前</button><button id="next">できた！ 次へ →</button></nav>
 <details><summary>ステップ一覧から選ぶ</summary><div id="steps" class="step-list"></div></details>
-<details><summary>完成したブロックを見たい</summary><div id="complete" class="visual"></div><p>左の「旗が押されたとき → 隠す」は、最初からあります。右の2つのかたまりを作ります。</p></details>
-<section class="trouble"><h2>困ったところから探そう</h2><details><summary>ブロックが見つからない</summary><p>右下の「ビーム」を選び、左上の「コード」を押します。「クローン」はオレンジ色の「制御」の下の方です。ブロック一覧の上で下へスクロールして探します。</p></details><details><summary>ブロックがつながらない</summary><p>ブロックを、つなぎたいブロックのすぐ下まで運びます。白い影が出たら指を離します。「繰り返す」の中に入れるときは、くぼみまで運びます。</p></details><details><summary>スペースキーを押しても出ない</summary><p>緑の旗 → 画面の「スタート」を押します。作品の画面を一度クリックしてからスペースキーを押します。「プレイヤー」の「スペースキーが押されたとき → ショットを送る」も確認します。すでに発射のプログラムがある場合は、二重に作らず先生と確認しましょう。</p></details><details><summary>ビームが見えない・違う場所から出る</summary><p>「クローンされたとき」の下を確認します。「プレイヤーへ行く → 表示する」の順です。元のビームが隠れているのは正解です。</p></details><details><summary>ビームが途中で残る</summary><p>「y座標を10ずつ変える」は「40回繰り返す」の内側に、「このクローンを削除する」は繰り返しの外側につなぎます。</p></details></section>
-<section id="finish" hidden class="check"><h2>できた！ 次は面白くしよう。</h2><p>「速すぎて見えにくい」「ゆっくりで当てにくい」など、遊んだ人の感想から1つ選ぼう。</p><label>何を変える？ なぜ？<textarea id="reflection" rows="3" placeholder="例：ビームが速すぎるので、動かす数を小さくする。"></textarea></label><p>数を小さくしたら、繰り返す回数も調整しよう。画面の上まで届くか、試して確かめます。</p><button id="export" class="secondary">ふり返りと進み具合を保存</button></section>
+<details><summary>完成したブロックを見たい</summary><div id="complete" class="visual"></div><p>「旗が押されたとき → 隠す」は最初からあります。「ショットを受け取ったとき」でコピーを作り、「クローンされたとき」で動かします。上まで来たか、UFOに触れるまで、12ずつ上へ動かし0.03秒待ちます。最後にコピーを削除します。</p></details>
+<section class="trouble"><h2>困ったところから探そう</h2><details><summary>前のガイドで「40回繰り返す」を作った場合</summary><p>それは簡略版です。この版は元の見本に戻しています。進み具合は変更部分の手前から再開します。「表示する」まで残し、その下を本編の「〜まで繰り返す」に組み替えます。移動量は12、待つ時間は0.03秒です。</p></details><details><summary>ブロックが見つからない</summary><p>右下の「ビーム」を選び、左上の「コード」を押します。「クローン」はオレンジ色の「制御」の下の方です。ブロック一覧の上で下へスクロールして探します。</p></details><details><summary>ブロックがつながらない</summary><p>ブロックを、つなぎたいブロックのすぐ下まで運びます。白い影が出たら指を離します。「繰り返す」の中に入れるときは、くぼみまで運びます。</p></details><details><summary>スペースキーを押しても出ない</summary><p>緑の旗 → 画面の「スタート」を押します。作品の画面を一度クリックしてからスペースキーを押します。「プレイヤー」の「スペースキーが押されたとき → ショットを送る」も確認します。すでに発射のプログラムがある場合は、二重に作らず先生と確認しましょう。</p></details><details><summary>ビームが見えない・違う場所から出る</summary><p>「クローンされたとき」の下を確認します。「プレイヤーへ行く → 表示する」の順です。元のビームが隠れているのは正解です。</p></details><details><summary>ビームが途中で残る</summary><p>「y座標を12ずつ変える → 0.03秒待つ」は「〜まで繰り返す」の内側に、「このクローンを削除する」は外側につなぎます。条件は「y座標 ＞ 175 または おじゃまUFOに触れた」です。</p></details></section>
+<section id="finish" hidden class="check"><h2>できた！ 次は面白くしよう。</h2><p>「速すぎて見えにくい」「ゆっくりで当てにくい」など、遊んだ人の感想から1つ選ぼう。</p><label>何を変える？ なぜ？<textarea id="reflection" rows="3" placeholder="例：ビームが速すぎるので、動かす数を小さくする。"></textarea></label><p>まず元の見本と同じ動作を確認します。改善するときは1か所ずつ変え、上に着く場合とUFOに当たる場合の両方を試して比べましょう。</p><button id="export" class="secondary">ふり返りと進み具合を保存</button></section>
 </section><footer>進み具合はこのブラウザだけに保存します。先生へ自動送信されません。<button id="reset" class="text-button">最初からやり直す</button></footer>
 </main><script>
-const categories = {event:['イベント','#b77a00'],control:['制御','#ba6b00'],motion:['動き','#3373d3'],looks:['見た目','#8154cf']};
+const categories = {event:['イベント','#b77a00'],control:['制御','#ba6b00'],motion:['動き','#3373d3'],looks:['見た目','#8154cf'],operators:['演算','#328329'],sensing:['調べる','#187d99']};
 const lessons = [
-['準備','「ビーム」を選ぼう','画面右下のスプライト一覧で、「ビーム」を1回クリックします。','「ビーム」に枠がつけばOKです。','ステージやプレイヤーではなく、「ビーム」を選びます。名前をよく見ましょう。','sprite'],
-['準備','「コード」を開こう','画面左上の「コード」をクリックします。','左側に、色のついたブロックが並びましたか？','「コスチューム」を開いていたら、その左の「コード」を押します。','code'],
-['発射の合図','黄色の「イベント」を押そう','左端の、黄色い丸の下にある「イベント」をクリックします。','黄色いブロックが並べばOKです。','丸の色と「イベント」の文字の両方を見て探しましょう。','event'],
-['発射の合図','「受け取ったとき」を運ぼう','「メッセージ1を受け取ったとき」を、中央の広いスペースの空いている場所へドラッグします。','山のような丸い頭のブロックを1つ置けましたか？','ドラッグは「押す → 押したまま動かす → 指を離す」です。メッセージ名が最初から「ショット」でも大丈夫です。','event','メッセージ1 ▼ を受け取ったとき'],
-['発射の合図','小さな「▼」を押そう','今置いたブロックの、メッセージ名の横の「▼」をクリックします。','メッセージの一覧が開きましたか？','「新しいメッセージ」は選ばなくて大丈夫です。スターターに「ショット」が用意されています。','event','メッセージ1 ▼ を受け取ったとき'],
-['発射の合図','「ショット」を選ぼう','開いた一覧の「ショット」をクリックします。','「ショットを受け取ったとき」になればOKです。','一覧にないときは、別の作品を開いていないか確認します。このガイド付属のスターターを使えます。','event','ショット ▼ を受け取ったとき',1],
-['コピーを作る','オレンジ色の「制御」を押そう','左端の「制御」をクリックします。','オレンジ色のブロックが並びましたか？','「イベント」と「制御」はどちらも黄色に近い色です。「制御」の文字で確かめます。','control'],
-['コピーを作る','「クローンを作る」を探そう','左側のブロック一覧を下へスクロールして、「自分自身のクローンを作る」を探します。','見つけるだけでOK。まだ運ばなくて大丈夫です。','中央の作業スペースではなく、左のブロックが並ぶ場所の上でスクロールします。','control','自分自身 ▼ のクローンを作る'],
-['コピーを作る','「受け取ったとき」の下につなごう','「自分自身のクローンを作る」を、「ショットを受け取ったとき」のすぐ下へ運び、白い影が出たら離します。','2つが、すき間なくつながりましたか？','元からある「旗が押されたとき → 隠す」にはつなぎません。クローンは、ビームのコピーです。','control','自分自身 ▼ のクローンを作る',2],
-['コピーを動かす','「クローンされたとき」を置こう','同じ「制御」の「クローンされたとき」を、中央の別の空いている場所へ運びます。','前のかたまりと離して、もう1つ置けましたか？','「自分自身のクローンを作る」とは別のブロックです。丸い頭の形を見て探します。','control','クローンされたとき',3],
-['出発する場所','青い「動き」を押そう','左端の、一番上にある青い丸の「動き」をクリックします。','青いブロックが並びましたか？','「ビーム」を選んだままにします。ステージを選ぶと「動き」は出ません。','motion',null,3],
-['出発する場所','「どこかの場所へ行く」をつなごう','「どこかの場所へ行く」を、「クローンされたとき」のすぐ下につなぎます。','「〜秒で〜へ行く」ではなく、「〜へ行く」を選べましたか？','「x座標を〜、y座標を〜にする」ではありません。行き先に「▼」がある青いブロックです。','motion','どこかの場所 ▼ へ行く',4],
-['出発する場所','行き先を「プレイヤー」にしよう','今つないだ青いブロックの「▼」を押し、一覧から「プレイヤー」を選びます。','「プレイヤーへ行く」になりましたか？','ロケットのスプライト名は、このスターターでは「プレイヤー」です。','motion','プレイヤー ▼ へ行く',5],
-['コピーを見せる','紫の「見た目」を押そう','左端の「見た目」をクリックします。','紫色のブロックが並びましたか？','青い「動き」のすぐ下にあります。','looks',null,5],
-['コピーを見せる','「表示する」をつなごう','「見た目」の一覧を下へスクロールし、「表示する」を青いブロックの下につなぎます。','「プレイヤーへ行く → 表示する」の順になりましたか？','「隠す」と取り違えていないか見ます。コピーだけを表示するため、元からある「隠す」は残します。','looks','表示する',6],
-['上へ動かす','「制御」をもう一度押そう','左端のオレンジ色の「制御」をクリックします。','オレンジ色のブロックに戻りましたか？','今度は「繰り返す」を使います。','control',null,6],
-['上へ動かす','「10回繰り返す」をつなごう','「10回繰り返す」を、「表示する」の下につなぎます。','口が開いたような、コの字のブロックです。','「ずっと」ではなく、回数が書いてある方を選びます。','control','10 回繰り返す',7],
-['上へ動かす','「10」を「40」に変えよう','「繰り返す」の白い丸の「10」をクリックし、消して「40」と入力します。','「40回繰り返す」になりましたか？','数字を選択してから入力します。まだ中が空っぽでも大丈夫です。','control','40 回繰り返す',8],
-['上へ動かす','青い「動き」に戻ろう','左端の「動き」をクリックします。','青いブロックが並びましたか？','今度は、左右のx座標ではなく上下のy座標を変えます。','motion',null,8],
-['上へ動かす','「y座標を10ずつ変える」を中に入れよう','「y座標を10ずつ変える」を、オレンジ色の「40回繰り返す」のくぼみの中へ運びます。','青いブロックが、オレンジ色に囲まれていますか？','外の下につなぐと1回しか動きません。必ず、くぼみの中の白い影を見て離します。','motion','y座標を 10 ずつ変える',9],
-['コピーを片づける','「このクローンを削除する」をつなごう','「制御」の一覧の下の方から、「このクローンを削除する」を運びます。「40回繰り返す」の外側の下につなぎます。','削除はオレンジ色の囲いの外、いちばん下です。','中に入れると、すぐに消えてしまいます。40回動き終わってから消す順番にします。','control','このクローンを削除する',10],
-['試してみよう','旗 → スタート → スペースキー','緑の旗を押し、作品の「スタート」を押します。作品の画面を一度クリックしてから、スペースキーを押します。','ロケットのところからビームが上へ飛びましたか？','右下の「困ったところから探そう」も見てください。文字の入力欄にカーソルがあると、キーが作品に届きません。','play',null,10],
-['保存しよう','作品をコンピューターに保存しよう','Scratch上部の「ファイル」→「コンピューターに保存する」を押します。','ダウンロード先に「.sb3」の作品が保存されましたか？','前の作品と区別できる名前にします。例：シューティング_ビーム完成.sb3。保存先が分からないときは先生に聞きます。','save',null,10]
+  [
+    "準備",
+    "「ビーム」を選ぼう",
+    "画面右下のスプライト一覧で、「ビーム」を1回クリックします。",
+    "「ビーム」に枠がつけばOKです。",
+    "ステージやプレイヤーではなく、「ビーム」を選びます。名前をよく見ましょう。",
+    "sprite"
+  ],
+  [
+    "準備",
+    "「コード」を開こう",
+    "画面左上の「コード」をクリックします。",
+    "左側に、色のついたブロックが並びましたか？",
+    "「コスチューム」を開いていたら、その左の「コード」を押します。",
+    "code"
+  ],
+  [
+    "発射の合図",
+    "黄色の「イベント」を押そう",
+    "左端の、黄色い丸の下にある「イベント」をクリックします。",
+    "黄色いブロックが並べばOKです。",
+    "丸の色と「イベント」の文字の両方を見て探しましょう。",
+    "event"
+  ],
+  [
+    "発射の合図",
+    "「受け取ったとき」を運ぼう",
+    "「メッセージ1を受け取ったとき」を、中央の広いスペースの空いている場所へドラッグします。",
+    "山のような丸い頭のブロックを1つ置けましたか？",
+    "ドラッグは「押す → 押したまま動かす → 指を離す」です。メッセージ名が最初から「ショット」でも大丈夫です。",
+    "event",
+    "メッセージ1 ▼ を受け取ったとき"
+  ],
+  [
+    "発射の合図",
+    "小さな「▼」を押そう",
+    "今置いたブロックの、メッセージ名の横の「▼」をクリックします。",
+    "メッセージの一覧が開きましたか？",
+    "「新しいメッセージ」は選ばなくて大丈夫です。スターターに「ショット」が用意されています。",
+    "event",
+    "メッセージ1 ▼ を受け取ったとき"
+  ],
+  [
+    "発射の合図",
+    "「ショット」を選ぼう",
+    "開いた一覧の「ショット」をクリックします。",
+    "「ショットを受け取ったとき」になればOKです。",
+    "一覧にないときは、別の作品を開いていないか確認します。このガイド付属のスターターを使えます。",
+    "event",
+    "ショット ▼ を受け取ったとき",
+    1
+  ],
+  [
+    "コピーを作る",
+    "オレンジ色の「制御」を押そう",
+    "左端の「制御」をクリックします。",
+    "オレンジ色のブロックが並びましたか？",
+    "「イベント」と「制御」はどちらも黄色に近い色です。「制御」の文字で確かめます。",
+    "control"
+  ],
+  [
+    "コピーを作る",
+    "「クローンを作る」を探そう",
+    "左側のブロック一覧を下へスクロールして、「自分自身のクローンを作る」を探します。",
+    "見つけるだけでOK。まだ運ばなくて大丈夫です。",
+    "中央の作業スペースではなく、左のブロックが並ぶ場所の上でスクロールします。",
+    "control",
+    "自分自身 ▼ のクローンを作る"
+  ],
+  [
+    "コピーを作る",
+    "「受け取ったとき」の下につなごう",
+    "「自分自身のクローンを作る」を、「ショットを受け取ったとき」のすぐ下へ運び、白い影が出たら離します。",
+    "2つが、すき間なくつながりましたか？",
+    "元からある「旗が押されたとき → 隠す」にはつなぎません。クローンは、ビームのコピーです。",
+    "control",
+    "自分自身 ▼ のクローンを作る",
+    2
+  ],
+  [
+    "コピーを動かす",
+    "「クローンされたとき」を置こう",
+    "同じ「制御」の「クローンされたとき」を、中央の別の空いている場所へ運びます。",
+    "前のかたまりと離して、もう1つ置けましたか？",
+    "「自分自身のクローンを作る」とは別のブロックです。丸い頭の形を見て探します。",
+    "control",
+    "クローンされたとき",
+    3
+  ],
+  [
+    "出発する場所",
+    "青い「動き」を押そう",
+    "左端の、一番上にある青い丸の「動き」をクリックします。",
+    "青いブロックが並びましたか？",
+    "「ビーム」を選んだままにします。ステージを選ぶと「動き」は出ません。",
+    "motion",
+    null,
+    3
+  ],
+  [
+    "出発する場所",
+    "「どこかの場所へ行く」をつなごう",
+    "「どこかの場所へ行く」を、「クローンされたとき」のすぐ下につなぎます。",
+    "「〜秒で〜へ行く」ではなく、「〜へ行く」を選べましたか？",
+    "「x座標を〜、y座標を〜にする」ではありません。行き先に「▼」がある青いブロックです。",
+    "motion",
+    "どこかの場所 ▼ へ行く",
+    4
+  ],
+  [
+    "出発する場所",
+    "行き先を「プレイヤー」にしよう",
+    "今つないだ青いブロックの「▼」を押し、一覧から「プレイヤー」を選びます。",
+    "「プレイヤーへ行く」になりましたか？",
+    "ロケットのスプライト名は、このスターターでは「プレイヤー」です。",
+    "motion",
+    "プレイヤー ▼ へ行く",
+    5
+  ],
+  [
+    "コピーを見せる",
+    "紫の「見た目」を押そう",
+    "左端の「見た目」をクリックします。",
+    "紫色のブロックが並びましたか？",
+    "青い「動き」のすぐ下にあります。",
+    "looks",
+    null,
+    5
+  ],
+  [
+    "コピーを見せる",
+    "「表示する」をつなごう",
+    "「見た目」の一覧を下へスクロールし、「表示する」を青いブロックの下につなぎます。",
+    "「プレイヤーへ行く → 表示する」の順になりましたか？",
+    "「隠す」と取り違えていないか見ます。コピーだけを表示するため、元からある「隠す」は残します。",
+    "looks",
+    "表示する",
+    6
+  ],
+  [
+    "繰り返しの条件",
+    "オレンジ色の「制御」を押そう",
+    "左端の「制御」をクリックします。",
+    "オレンジ色のブロックが並びましたか？",
+    "回数ではなく、条件が成立するまで繰り返すブロックを使います。",
+    "control",
+    null,
+    6
+  ],
+  [
+    "繰り返しの条件",
+    "「〜まで繰り返す」をつなごう",
+    "「〜まで繰り返す」を「表示する」の下につなぎます。",
+    "上に六角形の穴があるコの字のブロックです。",
+    "「10回繰り返す」や「ずっと」ではありません。前のガイドで作った繰り返しがある場合は、その部分を外して置き換えます。",
+    "control",
+    "◇ まで繰り返す",
+    7
+  ],
+  [
+    "繰り返しの条件",
+    "緑の「演算」を押そう",
+    "左端の緑色の「演算」をクリックします。",
+    "緑色のブロックが並びましたか？",
+    "これから条件を2つ組み合わせます。",
+    "operators",
+    null,
+    7
+  ],
+  [
+    "繰り返しの条件",
+    "「または」を探そう",
+    "「演算」の「または」という六角形のブロックを探します。",
+    "左右に六角形の穴があるブロックです。",
+    "「かつ」ではありません。「または」は、どちらか一方の条件が成立すればよい、という意味です。",
+    "operators",
+    "◇ または ◇",
+    7
+  ],
+  [
+    "繰り返しの条件",
+    "「または」を繰り返しの穴へ入れよう",
+    "「または」を、オレンジ色の「〜まで繰り返す」の上の六角形の穴へ入れます。",
+    "「◇ または ◇ まで繰り返す」になりましたか？",
+    "オレンジ色の内側のくぼみではなく、上の行の穴です。",
+    "operators",
+    "◇ または ◇",
+    8
+  ],
+  [
+    "上まで来たか調べる",
+    "「＞」を探そう",
+    "「演算」の「〜 ＞ 50」のような六角形のブロックを探します。",
+    "真ん中が「＞」になっていますか？",
+    "「＜」や「＝」ではありません。左が右より大きいか調べます。",
+    "operators",
+    "○ ＞ 50",
+    8
+  ],
+  [
+    "上まで来たか調べる",
+    "「＞」を「または」の左に入れよう",
+    "「＞」のブロックを、緑の「または」の左側の六角形の穴へ入れます。",
+    "「＞」の右側に、まだ「または」の空の穴が残っていますか？",
+    "「または」を外して置き換えるのではなく、その中の左の穴に入れます。",
+    "operators",
+    "○ ＞ 50",
+    9
+  ],
+  [
+    "上まで来たか調べる",
+    "青い「動き」を押そう",
+    "左端の「動き」をクリックします。",
+    "青いブロックが並びましたか？",
+    "今度は動かす命令ではなく、現在のy座標を表す丸いブロックです。",
+    "motion",
+    null,
+    9
+  ],
+  [
+    "上まで来たか調べる",
+    "丸い「y座標」を探そう",
+    "「動き」の下の方までスクロールし、丸い「y座標」のブロックを探します。",
+    "「y座標を〜ずつ変える」とは別の小さな丸いブロックです。",
+    "左のチェックボックスではなく、文字のある丸いブロックを運びます。",
+    "motion",
+    "y座標",
+    9
+  ],
+  [
+    "上まで来たか調べる",
+    "「y座標」を「＞」の左の丸へ入れよう",
+    "丸い「y座標」を、比較の「＞」の左側の白い入力欄へ入れます。",
+    "「y座標 ＞ 50」の形になりましたか？",
+    "青いブロックが緑の比較ブロックの中に入ります。",
+    "motion",
+    "y座標",
+    10
+  ],
+  [
+    "上まで来たか調べる",
+    "右の数字を「175」にしよう",
+    "「＞」の右の数字をクリックして「175」にします。",
+    "左が「y座標」、右が「175」ですか？",
+    "y座標が175を超えると、この条件が成立します。",
+    "operators",
+    "y座標 ＞ 175",
+    11
+  ],
+  [
+    "UFOとの接触を調べる",
+    "水色の「調べる」を押そう",
+    "左端の「調べる」をクリックします。",
+    "水色のブロックが並びましたか？",
+    "「〜に触れた」という条件を使います。",
+    "sensing",
+    null,
+    11
+  ],
+  [
+    "UFOとの接触を調べる",
+    "「マウスのポインターに触れた」を探そう",
+    "「調べる」から「マウスのポインターに触れた」という六角形のブロックを探します。",
+    "「▼」で相手を選べる水色の六角形です。",
+    "「色に触れた」ではありません。",
+    "sensing",
+    "マウスのポインター ▼ に触れた",
+    11
+  ],
+  [
+    "UFOとの接触を調べる",
+    "「触れた」を「または」の右に入れよう",
+    "水色のブロックを、「または」の右側に残った六角形の穴へ入れます。",
+    "左が「y座標 ＞ 175」、右が水色の条件ですか？",
+    "「＞」の中ではなく、「または」の右の穴です。",
+    "sensing",
+    "マウスのポインター ▼ に触れた",
+    12
+  ],
+  [
+    "UFOとの接触を調べる",
+    "水色の条件の「▼」を押そう",
+    "「マウスのポインター」の横の「▼」を押します。",
+    "相手の一覧が開きましたか？",
+    "今回はブロックを運ばず、三角をクリックします。",
+    "sensing",
+    "マウスのポインター ▼ に触れた",
+    12
+  ],
+  [
+    "UFOとの接触を調べる",
+    "相手を「おじゃまUFO」にしよう",
+    "一覧から「おじゃまUFO」を選びます。",
+    "「y座標 ＞ 175 または おじゃまUFOに触れた」になりましたか？",
+    "どちらか一方が成立すると、繰り返しを終えます。両方を同時に満たす必要はありません。",
+    "sensing",
+    "おじゃまUFO ▼ に触れた",
+    13
+  ],
+  [
+    "上へ動かす",
+    "「動き」に戻ろう",
+    "左端の「動き」をクリックします。",
+    "青いブロックが並びましたか？",
+    "条件ができたので、次は繰り返す動作を中に入れます。",
+    "motion",
+    null,
+    13
+  ],
+  [
+    "上へ動かす",
+    "「y座標を10ずつ変える」を内側へ入れよう",
+    "「y座標を10ずつ変える」を、オレンジ色の「〜まで繰り返す」のくぼみの中へ入れます。",
+    "オレンジ色に青いブロックが囲まれていますか？",
+    "上の条件の穴ではなく、下の内側のくぼみへ入れます。",
+    "motion",
+    "y座標を 10 ずつ変える",
+    14
+  ],
+  [
+    "上へ動かす",
+    "「10」を「12」にしよう",
+    "今入れたブロックの10をクリックし、「12」にします。",
+    "「y座標を12ずつ変える」になりましたか？",
+    "元のプログラムと同じ移動量です。プラスなので上へ進みます。",
+    "motion",
+    "y座標を 12 ずつ変える",
+    15
+  ],
+  [
+    "動きの間隔",
+    "「制御」に戻ろう",
+    "左端の「制御」をクリックします。",
+    "「1秒待つ」を見つけましたか？",
+    "ビームの動きの間隔を決めます。",
+    "control",
+    "1 秒待つ",
+    15
+  ],
+  [
+    "動きの間隔",
+    "動かす命令の下に「1秒待つ」を入れよう",
+    "「1秒待つ」を、青い「y座標を12ずつ変える」のすぐ下につなぎます。",
+    "移動と待つの2つが、繰り返しの内側にありますか？",
+    "繰り返しの外に出さないようにします。",
+    "control",
+    "1 秒待つ",
+    16
+  ],
+  [
+    "動きの間隔",
+    "待つ時間を「0.03」にしよう",
+    "待つブロックの1をクリックして「0.03」にします。",
+    "「0.03秒待つ」になりましたか？",
+    "0、点、0、3を半角で入力します。",
+    "control",
+    "0.03 秒待つ",
+    17
+  ],
+  [
+    "コピーを片づける",
+    "「このクローンを削除する」を外側につなごう",
+    "「制御」の下の方の「このクローンを削除する」を、繰り返しの外側のいちばん下につなぎます。",
+    "オレンジの囲いの外に削除がありますか？",
+    "上に着くか、UFOに触れて繰り返しが終わった後に、ビームのコピーを消します。",
+    "control",
+    "このクローンを削除する",
+    18
+  ],
+  [
+    "試してみよう",
+    "旗 → スタート → スペースキーで確かめよう",
+    "緑の旗 → 作品内のスタートを押し、作品の画面をクリックしてスペースキーを押します。",
+    "ビームが上へ進み、上端を越えたら消えますか？",
+    "UFOの動きが未完成でも、まず上端で消えることを確認できます。",
+    "play",
+    null,
+    18
+  ],
+  [
+    "試してみよう",
+    "UFOに触れたときも確認しよう",
+    "UFO編もできている作品では、左右キーで位置を合わせてビームを当てます。",
+    "UFOに触れたビームのコピーが消えますか？",
+    "ビームのこの条件は「ビームを消す」処理です。UFOも消すにはUFO側の当たり判定が必要です。まだUFOが動かない人は、UFO編を終えてから確認しましょう。",
+    "play",
+    null,
+    18
+  ],
+  [
+    "保存しよう",
+    "作品をコンピューターに保存しよう",
+    "Scratch上部の「ファイル」→「コンピューターに保存する」を押します。",
+    "「.sb3」の作品を保存できましたか？",
+    "例：シューティング_ビーム完成.sb3。前の作品と区別できる名前にします。",
+    "save",
+    null,
+    18
+  ]
 ];
 let state = {current:0,done:[],reflection:'',started:false};
 let storageAvailable = true;
-try { const stored = JSON.parse(localStorage.getItem('beam-guide-v1') || 'null'); if(stored && Number.isInteger(stored.current) && stored.current>=0 && stored.current<lessons.length && Array.isArray(stored.done)) state={...state,...stored}; } catch { storageAvailable=false; }
+try { const stored = JSON.parse(localStorage.getItem('beam-guide-original-v2') || 'null'); if(stored && Number.isInteger(stored.current) && stored.current>=0 && stored.current<lessons.length && Array.isArray(stored.done)) state={...state,...stored}; } catch { storageAvailable=false; }
+try{if(!localStorage.getItem('beam-guide-original-v2')){const previous=JSON.parse(localStorage.getItem('beam-guide-v1')||'null');if(previous&&Number.isInteger(previous.current)&&Array.isArray(previous.done)){state={current:Math.min(Math.max(previous.current,0),15),done:previous.done.filter(index=>Number.isInteger(index)&&index>=0&&index<15),reflection:typeof previous.reflection==='string'?previous.reflection:'',started:previous.started===true};}}}catch{}
 const element = id => document.getElementById(id);
-function save(){try{localStorage.setItem('beam-guide-v1',JSON.stringify(state));}catch{storageAvailable=false;}element('saved').textContent=storageAvailable?'このブラウザに保存中':'自動保存できません（このまま学習できます）';}
+function save(){try{localStorage.setItem('beam-guide-original-v2',JSON.stringify(state));}catch{storageAvailable=false;}element('saved').textContent=storageAvailable?'このブラウザに保存中':'自動保存できません（このまま学習できます）';}
 function block(label,color,x,y,width=290){return `<g transform="translate(${x} ${y})"><path d="M0 0 H15 l6 5 h24 l6 -5 H${width} V34 H51 l-6 5 H21 l-6 -5 H0 Z" fill="${color}" stroke="#000" stroke-opacity=".15"/><text x="12" y="23" fill="white" font-size="15" font-weight="600">${label}</text></g>`;}
-function scripts(level){let result=block('⚑ が押されたとき','#b77a00',20,30,215)+block('隠す','#8154cf',20,64,215);if(level>=1)result+=block('ショット ▼ を受け取ったとき','#b77a00',275,30);if(level>=2)result+=block('自分自身 ▼ のクローンを作る','#ba6b00',275,64);if(level>=3)result+=block('クローンされたとき','#ba6b00',275,137);if(level>=4)result+=block(level>=5?'プレイヤー ▼ へ行く':'どこかの場所 ▼ へ行く','#3373d3',275,171);if(level>=6)result+=block('表示する','#8154cf',275,205);if(level>=7){result+=`<path d="M275 239 H565 V273 H295 V322 H565 V340 H275 Z" fill="#ba6b00"/><text x="287" y="262" fill="white" font-size="15">${level>=8?'40':'10'} 回繰り返す</text>`;}if(level>=9)result+=block('y座標を 10 ずつ変える','#3373d3',295,278,260);if(level>=10)result+=block('このクローンを削除する','#ba6b00',275,340);return result;}
-function diagram(lesson){const category=lesson[5],label=lesson[6],level=lesson[7]||0;const color=categories[category]?.[1]||'#2457b9';let content='';if(category==='sprite'||category==='code'||category==='play'||category==='save'){content=`<rect x="15" y="15" width="850" height="385" rx="12" fill="#f0f4fa"/><rect x="20" y="18" width="840" height="37" fill="#7754bb"/><text x="40" y="43" fill="white" font-size="16">Scratch　　ファイル ▼</text><text x="40" y="89" font-size="17">コード　　コスチューム　　音</text><rect x="40" y="110" width="480" height="260" rx="8" fill="white"/><text x="70" y="160" fill="#708198" font-size="18">ブロックを組み立てる場所</text><rect x="555" y="100" width="285" height="185" rx="8" fill="#172541"/><text x="585" y="86" font-size="19" fill="#218771">⚑　緑の旗</text><text x="648" y="170" fill="white" font-size="38">🚀</text><rect x="625" y="230" width="150" height="35" rx="6" fill="#239a79"/><text x="660" y="254" fill="white" font-size="17">スタート</text><text x="568" y="322" font-size="13">スプライト一覧</text><rect x="555" y="335" width="90" height="52" rx="6" fill="white"/><rect x="651" y="335" width="90" height="52" rx="6" fill="#e7f0ff"/><rect x="747" y="335" width="98" height="52" rx="6" fill="white"/><text x="560" y="369" font-size="14">プレイヤー</text><text x="672" y="369" font-size="15">ビーム</text><text x="752" y="369" font-size="13">おじゃまUFO</text>`;const focus={sprite:[651,335,90,52],code:[30,63,95,36],play:[550,58,300,224],save:[142,20,100,33]}[category];content+=`<rect x="${focus[0]}" y="${focus[1]}" width="${focus[2]}" height="${focus[3]}" rx="7" fill="none" stroke="#dc3d45" stroke-width="4"/><text x="300" y="395" fill="#c72f3d" font-size="16">赤い枠の場所を見よう</text>`;}else{content=`<rect x="5" y="10" width="80" height="400" rx="8" fill="#f2f5fa"/>`;Object.entries(categories).forEach(([key,value],index)=>{const ypos=48+index*78;content+=`<circle cx="44" cy="${ypos}" r="13" fill="${value[1]}"/><text x="44" y="${ypos+34}" text-anchor="middle" font-size="13">${value[0]}</text>`;if(key===category)content+=`<rect x="10" y="${ypos-23}" width="68" height="66" rx="9" fill="none" stroke="#dc3d45" stroke-width="3"/>`;});content+=`<text x="105" y="30" font-size="14" fill="#52627a">① 左：ブロック一覧</text><text x="455" y="30" font-size="14" fill="#52627a">② 中央：組み立てる場所</text><rect x="100" y="50" width="305" height="355" fill="#f7f9fc"/><rect x="425" y="50" width="440" height="355" rx="8" fill="#f0f4fa"/>`;if(label)content+=block(label,color,107,125,290)+`<path d="M280 188 Q345 250 448 210" fill="none" stroke="#dc3d45" stroke-width="4" marker-end="url(#arrow)"/><text x="130" y="235" fill="#b53340" font-size="14">この形・文字を探そう</text>`;content+=`<g transform="translate(432 75) scale(.72)">${scripts(level)}</g>`;if(!label)content+=`<text x="118" y="110" fill="${color}" font-size="19">「${categories[category][0]}」をクリック</text>`;}return `<svg viewBox="0 0 880 425" role="img" aria-label="${lesson[1]}。${lesson[2]}"><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="#dc3d45"/></marker></defs>${content}</svg>`;}
+function scripts(level){
+let result=block('⚑ が押されたとき','#b77a00',10,25,225)+block('隠す','#8154cf',10,59,225);
+if(level>=1)result+=block('ショット ▼ を受け取ったとき','#b77a00',10,145,295);
+if(level>=2)result+=block('自分自身 ▼ のクローンを作る','#ba6b00',10,179,295);
+if(level>=3)result+=block('クローンされたとき','#ba6b00',330,25,490);
+if(level>=4)result+=block(level>=5?'プレイヤー ▼ へ行く':'どこかの場所 ▼ へ行く','#3373d3',330,59,490);
+if(level>=6)result+=block('表示する','#8154cf',330,93,490);
+if(level>=7)result+='<path d="M330 127 H830 V207 H350 V316 H830 V338 H330 Z" fill="#e89d0b"/><text x="717" y="190" fill="white" font-size="13">まで繰り返す</text>';
+if(level>=8){result+='<path d="M354 147 H690 L711 175 690 203 H354 L333 175 Z" fill="#328329"/><text x="501" y="179" fill="white" font-size="12">または</text>';
+result+='<path d="M360 155 H476 L489 175 476 195 H360 L347 175 Z" fill="'+(level>=9?'#409d35':'#266720')+'"/>';
+if(level>=9){result+='<text x="414" y="179" fill="white" font-size="14">＞</text><rect x="364" y="163" width="45" height="24" rx="12" fill="'+(level>=10?'#3373d3':'#fff')+'"/><text x="367" y="179" fill="'+(level>=10?'white':'#456')+'" font-size="11">'+(level>=10?'y座標':'')+'</text><rect x="435" y="163" width="36" height="24" rx="12" fill="white"/><text x="439" y="179" fill="#345" font-size="12">'+(level>=11?'175':'50')+'</text>';}
+result+='<path d="M552 155 H679 L692 175 679 195 H552 L539 175 Z" fill="'+(level>=12?'#187d99':'#266720')+'"/>';
+if(level>=12)result+='<text x="549" y="179" fill="white" font-size="'+(level>=13?'10':'8')+'">'+(level>=13?'おじゃまUFO ▼ に触れた':'マウスのポインター ▼ に触れた')+'</text>';
+}
+if(level>=14)result+=block('y座標を '+(level>=15?'12':'10')+' ずつ変える','#3373d3',350,218,350);
+if(level>=16)result+=block((level>=17?'0.03':'1')+' 秒待つ','#ba6b00',350,252,350);
+if(level>=18)result+=block('このクローンを削除する','#ba6b00',330,338,490);
+return result;
+}
+function diagram(lesson){const category=lesson[5],label=lesson[6],level=lesson[7]||0;const color=categories[category]?.[1]||'#2457b9';let content='';if(category==='sprite'||category==='code'||category==='play'||category==='save'){content=`<rect x="15" y="15" width="850" height="385" rx="12" fill="#f0f4fa"/><rect x="20" y="18" width="840" height="37" fill="#7754bb"/><text x="40" y="43" fill="white" font-size="16">Scratch　　ファイル ▼</text><text x="40" y="89" font-size="17">コード　　コスチューム　　音</text><rect x="40" y="110" width="480" height="260" rx="8" fill="white"/><text x="70" y="160" fill="#708198" font-size="18">ブロックを組み立てる場所</text><rect x="555" y="100" width="285" height="185" rx="8" fill="#172541"/><text x="585" y="86" font-size="19" fill="#218771">⚑　緑の旗</text><text x="648" y="170" fill="white" font-size="38">🚀</text><rect x="625" y="230" width="150" height="35" rx="6" fill="#239a79"/><text x="660" y="254" fill="white" font-size="17">スタート</text><text x="568" y="322" font-size="13">スプライト一覧</text><rect x="555" y="335" width="90" height="52" rx="6" fill="white"/><rect x="651" y="335" width="90" height="52" rx="6" fill="#e7f0ff"/><rect x="747" y="335" width="98" height="52" rx="6" fill="white"/><text x="560" y="369" font-size="14">プレイヤー</text><text x="672" y="369" font-size="15">ビーム</text><text x="752" y="369" font-size="13">おじゃまUFO</text>`;const focus={sprite:[651,335,90,52],code:[30,63,95,36],play:[550,58,300,224],save:[142,20,100,33]}[category];content+=`<rect x="${focus[0]}" y="${focus[1]}" width="${focus[2]}" height="${focus[3]}" rx="7" fill="none" stroke="#dc3d45" stroke-width="4"/><text x="300" y="395" fill="#c72f3d" font-size="16">赤い枠の場所を見よう</text>`;}else{content=`<rect x="5" y="10" width="80" height="400" rx="8" fill="#f2f5fa"/>`;Object.entries(categories).forEach(([key,value],index)=>{const ypos=34+index*60;content+=`<circle cx="44" cy="${ypos}" r="13" fill="${value[1]}"/><text x="44" y="${ypos+34}" text-anchor="middle" font-size="13">${value[0]}</text>`;if(key===category)content+=`<rect x="10" y="${ypos-23}" width="68" height="66" rx="9" fill="none" stroke="#dc3d45" stroke-width="3"/>`;});content+=`<text x="105" y="30" font-size="14" fill="#52627a">① 左：ブロック一覧</text><text x="455" y="30" font-size="14" fill="#52627a">② 中央：組み立てる場所</text><rect x="100" y="50" width="305" height="355" fill="#f7f9fc"/><rect x="425" y="50" width="440" height="355" rx="8" fill="#f0f4fa"/>`;if(label)content+=block(label,color,107,125,290)+`<path d="M280 188 Q345 250 448 210" fill="none" stroke="#dc3d45" stroke-width="4" marker-end="url(#arrow)"/><text x="130" y="235" fill="#b53340" font-size="14">この形・文字を探そう</text>`;content+=`<g transform="translate(432 75) scale(.50)">${scripts(level)}</g>`;if(!label)content+=`<text x="118" y="110" fill="${color}" font-size="19">「${categories[category][0]}」をクリック</text>`;}return `<svg viewBox="0 0 880 425" role="img" aria-label="${lesson[1]}。${lesson[2]}"><defs><marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="3" orient="auto"><path d="M0 0 L8 3 L0 6" fill="#dc3d45"/></marker></defs>${content}</svg>`;}
 function render(focus=false){element('intro').hidden=state.started;element('lesson').hidden=!state.started;const lesson=lessons[state.current];element('count').textContent=`ステップ ${state.current+1} / ${lessons.length}　・　できた ${state.done.length}`;element('bar').max=lessons.length;element('bar').value=state.done.length;element('phase').textContent=lesson[0];element('title').textContent=lesson[1];element('instruction').textContent=lesson[2];element('visual').innerHTML=diagram(lesson);element('check').textContent=lesson[3];element('hint').textContent=lesson[4];element('help').open=false;element('back').disabled=state.current===0;element('next').textContent=state.current===lessons.length-1?'できた！ ふり返りへ':'できた！ 次へ →';element('finish').hidden=!state.done.includes(lessons.length-1);element('reflection').value=state.reflection;element('steps').replaceChildren();lessons.forEach((item,index)=>{const button=document.createElement('button');button.textContent=`${state.done.includes(index)?'✓ ':''}${index+1}. ${item[1]}`;if(index===state.current)button.setAttribute('aria-current','step');button.onclick=()=>{state.current=index;save();render(true);};element('steps').append(button);});save();if(focus)element('title').focus();}
-element('start').onclick=()=>{state.started=true;save();render(true);};element('back').onclick=()=>{state.current=Math.max(0,state.current-1);render(true);};element('next').onclick=()=>{if(!state.done.includes(state.current))state.done.push(state.current);if(state.current<lessons.length-1){state.current++;render(true);}else{render();element('finish').scrollIntoView({behavior:'smooth'});}};element('reflection').oninput=event=>{state.reflection=event.target.value;save();};element('reset').onclick=()=>{if(confirm('このガイドの進み具合とふり返りを消しますか？ Scratchの作品は消えません。')){state={current:0,done:[],reflection:'',started:false};render();window.scrollTo(0,0);}};element('export').onclick=()=>{const blob=new Blob([`ビーム学習の記録\nできたステップ：${state.done.length}/${lessons.length}\n何を変える？ なぜ？\n${state.reflection}`],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download='ビーム学習の記録.txt';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};element('complete').innerHTML=`<svg viewBox="0 0 600 400" role="img" aria-label="完成見本。旗で隠す。ショットでクローンを作る。クローンはプレイヤーへ行き表示し、40回y座標を10変えてから削除する。">${scripts(10)}</svg>`;render();
+element('start').onclick=()=>{state.started=true;save();render(true);};element('back').onclick=()=>{state.current=Math.max(0,state.current-1);render(true);};element('next').onclick=()=>{if(!state.done.includes(state.current))state.done.push(state.current);if(state.current<lessons.length-1){state.current++;render(true);}else{render();element('finish').scrollIntoView({behavior:'smooth'});}};element('reflection').oninput=event=>{state.reflection=event.target.value;save();};element('reset').onclick=()=>{if(confirm('このガイドの進み具合とふり返りを消しますか？ Scratchの作品は消えません。')){state={current:0,done:[],reflection:'',started:false};render();window.scrollTo(0,0);}};element('export').onclick=()=>{const blob=new Blob([`ビーム学習の記録\nできたステップ：${state.done.length}/${lessons.length}\n何を変える？ なぜ？\n${state.reflection}`],{type:'text/plain;charset=utf-8'});const url=URL.createObjectURL(blob);const anchor=document.createElement('a');anchor.href=url;anchor.download='ビーム学習の記録.txt';anchor.click();setTimeout(()=>URL.revokeObjectURL(url),1000);};element('complete').innerHTML=`<svg viewBox="0 0 850 400" role="img" aria-label="完成見本。旗で隠す。ショットでクローンを作る。クローンはプレイヤーへ行き表示し、y座標が175を超えるかおじゃまUFOに触れるまで、y座標を12ずつ変え0.03秒待ち、最後に削除する。">${scripts(18)}</svg>`;render();
 
 </script><script>
 const preview = document.createElement('section');
@@ -108,20 +503,20 @@ const tools=document.createElement('div');
 tools.className='lesson-tools';
 tools.innerHTML='<a href="https://scratch.mit.edu/projects/editor/" target="_blank" rel="noopener noreferrer">Scratchを開く ↗</a><a href="data:application/octet-stream;base64,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" download="シューティングスターター.sb3">最初と同じスターターを保存 ↓</a><span class="starter-reminder">続きの作業では読み込み直しません。読み込むと今の作品が置き換わります。</span>';
 document.querySelector('.lesson-head').before(tools);
-const baseDiagram = diagram;
-diagram = function(lesson){
-  let focus='';
-  if(lesson[6]){
-    const color=categories[lesson[5]][1];
-    focus=`<div class="block-focus"><p>今回さがすブロック ／ ${categories[lesson[5]][0]}</p><svg viewBox="0 0 600 72" role="img" aria-label="${lesson[6]}">${block(lesson[6],color,12,12,565).replace('font-size="15"','font-size="21"').replace('y="23"','y="26"')}</svg></div>`;
-  }
-  const tips={3:'置く場所：元からあるブロックとは離れた、空いているところ。',4:'今回は運びません。「▼」をクリックして一覧を開きます。',5:'今回は運びません。一覧の「ショット」を選びます。',7:'今回は探すだけ。まだドラッグしなくて大丈夫です。',8:'つなぐ場所：「ショットを受け取ったとき」のすぐ下。',9:'置く場所：前のかたまりとは離れた、空いているところ。',11:'つなぐ場所：「クローンされたとき」のすぐ下。',12:'今回は運びません。「▼」から行き先を選びます。',14:'つなぐ場所：青い「プレイヤーへ行く」のすぐ下。',16:'つなぐ場所：「表示する」のすぐ下。',17:'今回は運びません。白い丸の中の数字を書きかえます。',19:'入れる場所：「40回繰り返す」の内側のくぼみ。',20:'つなぐ場所：「40回繰り返す」の外側、いちばん下。'};
-  let markup=baseDiagram(lesson);
-  if([4,5,7,12,17].includes(state.current)) markup=markup.replace(/<path d="M280 188[\s\S]*?<text x="130" y="235"[\s\S]*?<\/text>/,'');
-  return focus+(tips[state.current]?`<div class="target-guide">${tips[state.current]}</div>`:'')+markup;
+const baseDiagram=diagram;
+diagram=function(lesson){
+let focus='';
+if(lesson[6]){const color=categories[lesson[5]][1];let shape=block(lesson[6],color,12,12,565).replace('font-size="15"','font-size="21"').replace('y="23"','y="26"');
+if(['operators','sensing'].includes(lesson[5]))shape='<path d="M30 12 H550 L578 35 550 58 H30 L2 35 Z" fill="'+color+'"/><text x="40" y="42" fill="white" font-size="21">'+lesson[6]+'</text>';
+if(lesson[6]==='y座標')shape='<rect x="20" y="12" width="150" height="46" rx="23" fill="'+color+'"/><text x="48" y="42" fill="white" font-size="23">y座標</text>';
+focus='<div class="block-focus"><p>今回さがすブロック ／ '+categories[lesson[5]][0]+'</p><svg viewBox="0 0 600 72" role="img" aria-label="'+lesson[6]+'">'+shape+'</svg></div>';}
+let picture=baseDiagram(lesson);
+if(/探そう|押そう|選ぼう|しよう|変えよう/.test(lesson[1]))picture=picture.replace(/<path d="M280 188[\s\S]*?<text x="130" y="235"[\s\S]*?<\/text>/,'');
+const note=lesson[0]==='繰り返しの条件'||lesson[0]==='上まで来たか調べる'||lesson[0]==='UFOとの接触を調べる'?'条件は「y座標 ＞ 175」または「おじゃまUFOに触れた」。どちらか一方で繰り返しを終えます。':'図を見て、今の1操作だけ進めよう。';
+return focus+'<div class="target-guide">'+note+'</div>'+picture;
 };
 const originalRender=render;
-render=function(focus=false){originalRender(focus);const messages={0:'まずは「どのスプライトに命令を書くか」を決めよう。今回はビームだよ。',8:'ここまでで「発射の合図が来たら、コピーを作る」ができたね。まだ飛ばなくて大丈夫！',9:'ここからは、コピーされたビームに動きを教えるよ。別のかたまりで作ろう。',14:'元のビームは隠したまま。生まれたコピーだけを見せるんだね。',19:'y座標は上下の位置。10ずつ増やすと、上へ進むよ。',20:'使い終わったコピーを消すところまでが、ビームの仕事！',21:'動かなかったら、失敗ではなく確認のチャンス。下のヒントで一つずつ見直そう。',22:'作品の保存も忘れずに。次は遊んだ人の感想を聞いて、工夫を考えよう。'};document.getElementById('coachMessage').textContent=messages[state.current]||'図と同じになったら「できた！」で次へ。迷ったら「うまくいかないとき」を開こう。';};
+render=function(focus=false){originalRender(focus);const phase=lessons[state.current][0];document.getElementById('coachMessage').textContent=phase==='UFOとの接触を調べる'?'条件を入れるのは「または」の右の穴。触れる相手は「おじゃまUFO」だよ。':phase==='上まで来たか調べる'?'「y座標 ＞ 175」は、ビームが上まで来たかを調べる条件だね。':phase==='コピーを片づける'?'繰り返しの外で削除するから、条件を満たしてから消えるんだね。':'元の見本と同じ条件・数字で、1つずつ組み立てよう。';};
 render();
 
 </script>
